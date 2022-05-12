@@ -9,5 +9,5 @@ module.exports = {
   login,
   current,
   logout,
-  updataAvatar
+  updataAvatar,
 };
