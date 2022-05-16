@@ -13,6 +13,7 @@ const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 app.use(logger(formatsLogger));
 app.use(cors());
 app.use(express.json());
+app.use(express.static("public"));
 
 // const DB_HOST = "mongodb+srv://Nadiia:7Q!c_Ga7xwUXX_b@cluster0.mrrli.mongodb.net/db-contacts?retryWrites=true&w=majority"
 

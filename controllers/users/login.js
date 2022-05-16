@@ -26,7 +26,6 @@ const login = async (req, res) => {
     ResponseBody: {
       token: token,
       user: {
-        // email: "example@example.com",
         email: user,
         subscription: "starter",
       },
